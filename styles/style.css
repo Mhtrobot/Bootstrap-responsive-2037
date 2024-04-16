@@ -1,3 +1,12 @@
+/* 1. don't modify this style */
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+/* 2. we use :root for default variables */
 :root {
     /* --"somekey-attr": "somevalue" i.e : */
     --primary: #3B2A9F;
@@ -23,21 +32,6 @@
     src: url("/assets/fonts/Poppins-Bold.ttf") format('truetype');
 }
 
-@font-face {
-    font-family: Rubik;
-    src: url("/assets/fonts/static/Rubik-Medium.ttf");
-}
-
-@font-face {
-    font-family: Poppins-light;
-    src: url("/assets/fonts/Poppins-Light.ttf");
-}
-
-@font-face {
-    font-family: Poppins-semi-Bold;
-    src: url("/assets/fonts/Poppins-SemiBold.ttf") format('truetype');
-}
-
 body {
     font-family: Poppins-medium, serif;
     background-color: var(--bg-gradiant);
@@ -60,15 +54,14 @@ header {
     display: flex;
 }
 
-.list {
+.my-list {
     display: flex;
-    margin-left: 706px;
-    margin-top: -30px;
+    margin-left: 675px;
     width: 505.41px;
     height: 24.2px;
 }
 
-.nav {
+.my-nav {
     font-family: Poppins-ExLight;
     display: inline;
     color: white;
@@ -175,6 +168,11 @@ header {
     margin-bottom: 60px;
 }
 
+@font-face {
+    font-family: Rubik;
+    src: url("/assets/fonts/static/Rubik-Medium.ttf");
+}
+
 #trend-text {
     font-family: Rubik, serif;
     font-size: 30px;
@@ -199,7 +197,7 @@ header {
 
 .trending-games li {
     display: inline-block;
-    margin-right: 47px;
+    margin-right: 75px;
 }
 
 .trend-game-img {
@@ -209,16 +207,18 @@ header {
     object-fit: cover;
     object-position: center center;
     transition: opacity 1s ease;
+    margin-left: -30px;
 }
 
 article {
     display: flex;
     align-items: center;
-    margin: 25px 40px;
+    margin: 25px 10px;
 }
 
 .fire {
     margin-right: 10px;
+    margin-top: -17px;
     width: 18px;
     height: 25px;
     transition: transform 1s ease;
@@ -248,6 +248,12 @@ article {
     height: 132px;
     margin-left: 307px;
 }
+
+@font-face {
+    font-family: Poppins-light;
+    src: url("/assets/fonts/Poppins-Light.ttf");
+}
+
 
 .textbox {
     width: 545px;
@@ -279,6 +285,7 @@ article {
 
 .dot {
     height: 20px;
+    margin-top: -15px;
 }
 
 .middle-page-img {
@@ -286,7 +293,7 @@ article {
     height: 462px;
     margin-left: 147px;
     position: relative;
-    bottom: 53px;
+    bottom: 65px;
     object-fit: cover;
     object-position: center center;
     border-radius: 5px;
@@ -363,7 +370,7 @@ article {
     margin-bottom: 105px;
 }
 
-.container {
+.my-container {
     width: 1170px;
     height: 392px;
     margin-left: 135px;
@@ -374,14 +381,14 @@ article {
     margin-left: unset;
 }
 
-.box {
+.my-box {
     background-color: black;
     width: 1170px;
     height: 189px;
     border-radius: 15px;
 }
 
-.box .textbox {
+.my-box .textbox {
     margin: 40px 134px 42px 56px;
     width: 636px;
     height: 107px;
@@ -406,11 +413,11 @@ article {
     font-family: Poppins, serif;
     width: 155px;
     height: 20px;
-    margin: 14px 99px 14px 21px;
+    margin: 14px 90px 14px 21px;
     border: none;
 }
 
-.btn {
+.my-btn {
     font-family: Poppins, serif;
     padding: 8px 13.5px 9px 22px;
     border: none;
@@ -426,10 +433,10 @@ footer {
 }
 
 .footer-coloumns {
-    width: 1219px;
+    width: 1440px;
     height: 161px;
     padding-top: 79px;
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .footer-col, .footer-sec-col, .footer-third-col, .footer-third-col, .footer-fourth-col {
@@ -438,13 +445,13 @@ footer {
     vertical-align: top;
 }
 
-.paragrapgh.p-1 {
+.paragrapgh.phg-1 {
     width: 372px;
     height: 58px;
     margin-bottom: 25px;
 }
 
-.paragrapgh.p-2 {
+.paragrapgh.phg-2 {
     width: 196px;
     height: 23px;
 }
@@ -464,28 +471,33 @@ footer {
     margin-right: 144px;
 }
 
-.p-3 {
+.phg-3 {
     font-size: 16px;
     line-height: 30px;
     font-family: Poppins-ExLight;
 }
 
-.p-4 {
+.phg-4 {
     width: 282px;
     height: 76px;
     font-family: Poppins-ExLight;
     margin-bottom: 15px;
 }
 
-.p-5 {
+.phg-5 {
     font-family: Poppins-ExLight;
     width: 141px;
     height: 28px;
 }
 
+@font-face {
+    font-family: Poppins-semi-Bold;
+    src: url("/assets/fonts/Poppins-SemiBold.ttf") format('truetype');
+}
+
 .footer-fourth-col {
     margin-top: 117px;
-    margin-left: 83px;
+    margin-left: 50px;
 }
 
 .facebook, .instagram, .twitter, .linkedin {
@@ -509,3 +521,20 @@ footer {
 hr {
     margin-top: 151px;
 }
+
+/*Full Width (1440px)*/
+@media (max-width: 1440px) {
+    body {
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+/* Main width (1140px) */
+@media (max-width: 1140px) {
+    body {
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
+/* good luck */
