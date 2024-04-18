@@ -538,6 +538,9 @@ footer {
     .joy-1{
         left: 545px;
     }
+    .trend-sm-md{
+        margin-left: 420px;
+    }
 }
 
 @media (max-width: 767.98px){
@@ -550,6 +553,9 @@ footer {
     }
     .more-sm{
         margin-right: 60px;
+    }
+    .trend-sm-md{
+        margin-left: 420px;
     }
 }
 /*Full Width (1440px)*/
