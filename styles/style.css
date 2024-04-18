@@ -523,7 +523,7 @@ footer {
     margin-top: 151px;
 }
 
-@media (min-width: 768px) and (max-width: 992px){
+@media (min-width: 768px) and (max-width: 991.98px){
     .pre-sm-md {
         text-align: center;
         margin-top: 803px;
@@ -557,20 +557,15 @@ footer {
     .trend-sm-md{
         margin-left: 420px;
     }
-}
-/*Full Width (1440px)*/
-/*@media (max-width: 1440px) {
-    body {
-        width: 1440px;
-        margin: 0 auto;
+    .element-gap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
-!* Main width (1140px) *!
-@media (max-width: 1140px) {
-    body {
-        width: 1440px;
-        margin: 0 auto;
+@media (min-width: 992px) and (max-width: 1440px){
+    .trending-games{
+        margin-left: 25px;
     }
-}*/
-/* good luck */
+}
