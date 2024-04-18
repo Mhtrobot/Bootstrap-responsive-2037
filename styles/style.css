@@ -541,6 +541,7 @@ footer {
     .trend-sm-md{
         margin-left: 420px;
     }
+
 }
 
 @media (max-width: 767.98px){
@@ -561,6 +562,11 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .m-md-10{
+        margin-left: 430px;
+        width: 658px;
+        height: 135px;
     }
 }
 
