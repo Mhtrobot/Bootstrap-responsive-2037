@@ -32,12 +32,59 @@
     src: url("/assets/fonts/Poppins-Bold.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: Poppins-semi-Bold;
+    src: url("/assets/fonts/Poppins-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Poppins-light;
+    src: url("/assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url("/assets/fonts/static/Rubik-Medium.ttf");
+}
+
 body {
     font-family: Poppins-medium, serif;
     background-color: var(--bg-gradiant);
     color: white;
     width: 1440px;
     margin: 0 auto;
+}
+
+.joy-1 {
+    position: absolute;
+    height: 710px;
+    width: 634px;
+    left: 740px;
+    top: 70px;
+}
+
+#unity-1 {
+    position: relative;
+    bottom: 250px;
+    width: 96px;
+    height: 30px;
+    right: 100px;
+}
+
+#cry-1 {
+    width: 101px;
+    height: 99px;
+    position: relative;
+    bottom: 420px;
+    left: 10px;
+}
+
+#unreal-1 {
+    width: 59px;
+    height: 64px;
+    position: relative;
+    bottom: 480px;
+    left: 200px;
 }
 
 header {
@@ -130,48 +177,13 @@ header {
     text-decoration: none;
 }
 
-#joy-1 {
-    position: absolute;
-    height: 710px;
-    width: 634px;
-    left: 740px;
-    top: 70px;
-}
-
-#unity-1 {
-    position: relative;
-    bottom: 250px;
-    width: 96px;
-    height: 30px;
-    right: 100px;
-}
-
-#cry-1 {
-    width: 101px;
-    height: 99px;
-    position: relative;
-    bottom: 420px;
-    left: 10px;
-}
-
-#unreal-1 {
-    width: 59px;
-    height: 64px;
-    position: relative;
-    bottom: 480px;
-    left: 200px;
-}
-
 .trend {
     margin-top: 180px;
     margin-left: 150px;
     margin-bottom: 60px;
 }
 
-@font-face {
-    font-family: Rubik;
-    src: url("/assets/fonts/static/Rubik-Medium.ttf");
-}
+
 
 #trend-text {
     font-family: Rubik, serif;
@@ -248,12 +260,6 @@ article {
     height: 132px;
     margin-left: 307px;
 }
-
-@font-face {
-    font-family: Poppins-light;
-    src: url("/assets/fonts/Poppins-Light.ttf");
-}
-
 
 .textbox {
     width: 545px;
@@ -490,11 +496,6 @@ footer {
     height: 28px;
 }
 
-@font-face {
-    font-family: Poppins-semi-Bold;
-    src: url("/assets/fonts/Poppins-SemiBold.ttf") format('truetype');
-}
-
 .footer-fourth-col {
     margin-top: 117px;
     margin-left: 50px;
@@ -518,23 +519,52 @@ footer {
     font-size: 13px;
 }
 
-hr {
+.custom-hr {
     margin-top: 151px;
 }
 
+@media (min-width: 768px) and (max-width: 992px){
+    .pre-sm-md {
+        text-align: center;
+        margin-top: 803px;
+        margin-left: 525px;
+    }
+    .sp-md{
+        padding-right: 60px;
+    }
+    .more-sm{
+        margin-right: 60px;
+    }
+    .joy-1{
+        left: 545px;
+    }
+}
+
+@media (max-width: 767.98px){
+    .pre-sm-md {
+        text-align: center;
+        margin-left: 525px;
+    }
+    .sp-md{
+        padding-right: 60px;
+    }
+    .more-sm{
+        margin-right: 60px;
+    }
+}
 /*Full Width (1440px)*/
-@media (max-width: 1440px) {
+/*@media (max-width: 1440px) {
     body {
         width: 1440px;
         margin: 0 auto;
     }
 }
 
-/* Main width (1140px) */
+!* Main width (1140px) *!
 @media (max-width: 1140px) {
     body {
         width: 1440px;
         margin: 0 auto;
     }
-}
+}*/
 /* good luck */
