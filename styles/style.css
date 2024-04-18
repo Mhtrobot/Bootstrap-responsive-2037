@@ -523,6 +523,7 @@ footer {
     margin-top: 151px;
 }
 
+/*md*/
 @media (min-width: 768px) and (max-width: 991.98px){
     .pre-sm-md {
         text-align: center;
@@ -541,9 +542,15 @@ footer {
     .trend-sm-md{
         margin-left: 420px;
     }
-
+    .textbox{
+        margin-top: 80px;
+    }
+    .middle-page-img{
+        bottom: 0;
+    }
 }
 
+/*sm*/
 @media (max-width: 767.98px){
     .pre-sm-md {
         text-align: center;
@@ -568,8 +575,12 @@ footer {
         width: 658px;
         height: 135px;
     }
+    .middle-page-img{
+        bottom: 0;
+    }
 }
 
+/*large*/
 @media (min-width: 992px) and (max-width: 1440px){
     .trending-games{
         margin-left: 25px;
