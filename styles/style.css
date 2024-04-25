@@ -570,6 +570,29 @@ footer {
     .first-row-md, .sec-row-md, .third-row-md{
         margin-bottom: 30px;
     }
+    .textbox-md{
+        margin-left: 330px!important;
+        text-align: center;
+        width: 443px;
+    }
+    .ph-md{
+        width: 675px;
+        margin-left: -80px;
+    }
+    .my-md-box{
+        width: 670px;
+        height: 280px;
+        margin-left: 250px;
+    }
+    .email{
+        width: 580px;
+        margin-left: 53px;
+        margin-top: 0;
+    }
+    .my-btn{
+        padding: 8px 26.5px 9px 26px;
+        margin-left: 180px;
+    }
 }
 
 /*sm*/
@@ -611,14 +634,26 @@ footer {
         width: 401px;
     }
     .textbox-sm{
-        margin-left: 300px!important;
+        margin-left: 370px!important;
         text-align: center;
+        width: 443px;
     }
     .my-sm-box{
         width: 434px;
         height: 297px;
         text-align: center;
         margin-left: 370px;
+    }
+    .last-content-more-detail{
+        margin-left: 650px;
+    }
+    .text-box-sm-2{
+        width: 326px!important;
+        margin: 40px 0 42px 0;
+    }
+    .email{
+        margin-left: 30px;
+        margin-top: 0;
     }
 }
 
