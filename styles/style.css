@@ -621,7 +621,10 @@ footer {
         height: 135px;
     }
     .middle-page-img{
+        width: 452px;
+        height: 388px;
         bottom: 0;
+        left: 350px;
     }
     .img1{
         width: 401px;
@@ -654,6 +657,13 @@ footer {
     .email{
         margin-left: 30px;
         margin-top: 0;
+    }
+    .middle-box-md{
+        margin-left: 500px!important;
+        width: 452px;
+    }
+    .footer-sm{
+
     }
 }
 
